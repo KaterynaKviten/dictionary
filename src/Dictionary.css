@@ -1,0 +1,12 @@
+.Dictionary {
+  border: 1px solid #b6c2d13a;
+  border-radius: 10px;
+  color: #727070;
+  padding: 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.form-control {
+  max-width: 50%;
+  display: inline;
+}

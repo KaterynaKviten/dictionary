@@ -8,7 +8,13 @@ function App() {
         <header className="App-header">Dictionary</header>
       </div>
       <Dictionary />
-      <footer> coded by</footer>
+      <footer>
+        Coded by Kateryna Shiurkova and is
+        <a href="https://github.com/KaterynaKviten" target="blank">
+          {" "}
+          open-sourced on GitHub
+        </a>
+      </footer>
     </div>
   );
 }
