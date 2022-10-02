@@ -7,7 +7,9 @@ function App() {
       <div className="container">
         <header className="App-header">Dictionary</header>
       </div>
-      <Dictionary />
+      <main>
+        <Dictionary />
+      </main>
       <footer>
         Coded by Kateryna Shiurkova and is
         <a href="https://github.com/KaterynaKviten" target="blank">
