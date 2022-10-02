@@ -7,15 +7,16 @@ export default function Meaning(props) {
       <h3>{props.meaning.partOfSpeech}</h3>
 
       {props.meaning.definitions.map(function (definition, index) {
+        console.log("def", definition);
         return (
           <div key={index}>
             <p>{definition.definition}</p>
-            <p>
-              <Synonyms synonyms={definition.synonyms} />
-            </p>
           </div>
         );
       })}
+      <em>
+        <Synonyms synonyms={props.meaning.synonyms} />
+      </em>
     </div>
   );
 }
