@@ -1,0 +1,13 @@
+.definition {
+  color: #4a503d;
+  text-align: start;
+  padding-left: 30px;
+  line-height: 1;
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+h3 {
+  text-align: left;
+  color: #e28f83;
+  font-weight: lighter;
+}

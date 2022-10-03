@@ -26,7 +26,7 @@ export default function Dictionary() {
 
     let pexelsApiKey =
       "563492ad6f9170000100000138299ceeb2ef4782a2560f2f884de2fe";
-    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}$per_page=1`;
+    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}`;
     let headers = { Authorization: `Bearer ${pexelsApiKey}` };
     axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
   }
@@ -44,10 +44,11 @@ export default function Dictionary() {
             onChange={handleKeywordChange}
             className="form-control"
           />
+          <div className="exemple">ocean, yoga, cat, forest, food, love...</div>
         </form>
       </section>
-      <Results results={results} />
       <Photos photos={photos} />
+      <Results results={results} />
     </div>
   );
 }

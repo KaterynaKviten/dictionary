@@ -1,25 +1,36 @@
 .App {
   text-align: center;
   padding: 30px;
-  background: #e9c2d7;
+  background: #faf2da;
   max-width: 960px;
   margin: 0 auto;
+  margin-top: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-header {
-  font-size: 30px;
-  font-weight: bold;
-  color: #1cb3a9;
-  padding: 10px 0 10px 0;
+.App-header {
+  font-size: 50px;
+  font-weight: lighter;
+  color: #4a503d;
+  padding: 7px 0 7px 0;
+}
+.title {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #4a503d;
+  padding: 7px 0 7px 0;
 }
 footer {
   padding-top: 30px;
   font-family: monospace;
-  color: #1cb3a9;
+  color: #4a503d;
 }
 footer a {
   text-decoration: none;
-  color: #e9c2d7;
+  color: #8e9775;
 }
 footer a:hover {
-  color: #a29e9e;
+  color: #e28f83;
+}
+.App img {
+  width: 170px;
 }
