@@ -8,11 +8,11 @@ export default function Photos(props) {
         <div className="row">
           {props.photos.map(function (photo, index) {
             return (
-              <div className="col-4" key={index}>
+              <div className="col-3" key={index}>
                 <a href={photo.src.original} target="blank">
                   <img
                     src={photo.src.landscape}
-                    alt="pict"
+                    alt="responsiveImage"
                     className="img-fluid"
                   />
                 </a>
