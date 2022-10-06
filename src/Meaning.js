@@ -8,7 +8,6 @@ export default function Meaning(props) {
       <h3>{props.meaning.partOfSpeech}</h3>
 
       {props.meaning.definitions.map(function (definition, index) {
-        console.log("def", definition);
         return (
           <div key={index}>
             <p className="definition">{definition.definition}</p>
